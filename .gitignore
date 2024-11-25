@@ -1,0 +1,82 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database
+*.log
+*.sqlite3
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+coverage/
+*.coverage
+*.xml
+*.html
+
+# Temporary files and caches
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+
+# Machine learning artifacts
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# PyTorch and TensorFlow model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+
+# Hugging Face datasets and cache
+.cache/
+datasets/
+transformers_cache/
+
+# Environment files
+.env
+.env.*
+
+# Compiled files
+*.c
+*.o
+*.out
+*.a
+
+# IDE files
+.idea/
+.vscode/
+*.code-workspace
+
+# Anaconda
+*.conda
+*.ipynb_checkpoints/
+
+# TensorBoard
+logs/
+events.out.tfevents.*
+
+# Temporary development files
+*.test
+*.example
+*.bak
